@@ -95,6 +95,10 @@ header nav ul>li .triangle {
     padding-top: 0.5em;
 }
 
+li:hover {
+    transform: scale(1.08);
+}
+
 
 /*----SLIDER -----------------*/
 
@@ -176,8 +180,82 @@ h2 {
     display: inline-block;
     font-weight: 300;
     font-size: 18px;
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
     cursor: pointer;
     width: 220px !important;
     text-transform: uppercase;
+}
+
+.slider-button:hover {
+    transform: scale(1.02);
+}
+
+
+/*-----------------GALLERY---------------------*/
+
+#gallery .fixed-width .image-gallery, .text-gallery {
+    display: inline-block;
+    height: 250px;
+    width: 315px;
+    margin-right: 20px;
+    background-size: cover;
+}
+
+.image-gallery:first-child {
+    background-image: url("../images/box1_img.jpg");
+    position: relative;
+}
+
+.image-gallery:nth-child(2) {
+    background-image: url("../images/box2_img.jpg");
+    position: relative;
+}
+
+.image-gallery:hover {
+    transform: scale(1.02);
+}
+
+.opacity-gallery {
+    margin-top: 170px;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.bar-text, .text-gallery-header {
+    position: absolute;
+    width: 50%;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 9px 0px -4px;
+    -moz-box-shadow: 0px 9px 0px -4px #34c797;
+    box-shadow: 0px 9px 0px -4px #34c797;
+    margin-left: 10px;
+    text-indent: 5px;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+.text-gallery {
+    float: right;
+    margin: 0;
+    border: 1px solid lightgrey;
+    height: 280px;
+    position: relative;
+    text-align: left;
+}
+
+.text-gallery-paragraph {
+    position: relative;
+    padding-top: 60px;
+    padding-left: 15px;
+    font-size: 15px;
+    margin-right: 15px;
+    color: grey;
+    word-spacing: 1px;
+}
+
+.text-gallery-header {
+    padding-top: 20px;
+    width: 45%;
 }
