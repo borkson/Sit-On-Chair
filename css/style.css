@@ -349,6 +349,7 @@
                 font-weight: 600;
                 padding-top: 30px;
                 background-color: white;
+                color: #bfc2c4;
             }
 
             .price-container .in-circle sup, p {
@@ -410,7 +411,7 @@
 
             #green-in-circle {
                 border: #34c797;
-                color: #34c797;
+                color: #34c797 !important;
             }
 
             #green-list {
