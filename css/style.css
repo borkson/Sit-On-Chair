@@ -294,7 +294,7 @@ h2 {
 }
 
 .price-container:nth-child(2), .price-container:nth-child(3) {
-    margin-right: 30px
+    margin-right: 30px;
 }
 
 .price-container:nth-child(1) {
@@ -474,33 +474,38 @@ textarea {
     top: -15px;
 }
 
-.checkbox-image {
-    background-image: url("../images/form_ok.jpg");
-    height: 45px;
-    width: 45px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    border: 1px solid springgreen;
-    float: left;
-    margin-left: 90px;
+input[type="checkbox"] {
+    display: none;
 }
 
-.checkbox-text {
-    color: font-family: 'Raleway', sans-serif;
+input[type="checkbox"]+label span {
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    float: left;
+    margin-left: 90px;
+    border: 1px solid springgreen;
+    background: url("../images/form_ok.jpg") left top no-repeat;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked+label span {
+    background: url("../images/form_ok.jpg") -45px top no-repeat;
+}
+
+label p {
+    font-family: 'Raleway', sans-serif;
     color: grey;
-    float: right;
     font-size: 18px;
-    position: relative;
 }
 
 .right-side-form button {
     position: relative;
     color: white;
     background-color: #34c797;
-    margin-top: 40px;
+    margin-top: 25px;
     width: 77%;
-    padding: 25px 0;
+    padding: 17px 0;
     border: none;
     border-radius: 20px;
     cursor: pointer;
