@@ -115,11 +115,32 @@ nav li:hover {
 }
 
 .image-chair {
-    background-image: url("../images/black_chair.png");
     height: 400px;
-    background-size: cover;
     position: relative;
     background-position: center;
+    background-size: cover;
+}
+
+#blackChair {
+    background-image: url("../images/black_chair.png");
+}
+
+#orangeChair {
+    background-image: url("../images/orange.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#redChair {
+    background-image: url("../images/red.png");
+}
+
+.slide {
+    display: none !important;
+}
+
+.visible {
+    display: inline-block !important;
 }
 
 .slider-content {
@@ -129,8 +150,8 @@ nav li:hover {
 }
 
 #slider .fixed-width * {
-    display: inline-block;
     vertical-align: middle;
+    display: inline-block;
 }
 
 #slider .fixed-width article {
@@ -144,13 +165,28 @@ nav li:hover {
     color: #34c797;
 }
 
+.left-arrow:active {
+    right: 4px;
+}
+
+.left-arrow {
+    position: relative;
+    right: 0px;
+    transition: all ease 0.3s;
+}
+
 .right-arrow {
     padding-left: 60px;
 }
 
-#slider .fixed-width article * {
-    display: inline-block;
-    vertical-align: middle;
+.right-arrow:active {
+    left: 4px;
+}
+
+.right-arrow {
+    position: relative;
+    left: 0px;
+    transition: all ease 0.3s;
 }
 
 #slider .fixed-width article div {

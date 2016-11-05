@@ -16,5 +16,37 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    var rightArrow = document.querySelector('.right-arrow');
+    var leftArrow = document.querySelector('.left-arrow');
+    var slideImg = document.querySelectorAll('.slide')
+        // lub var list = document.querySelectorAll('li');
+    var imgCounter = 0;
+
+    slideImg[0].classList.add('visible');
+
+
+    rightArrow.addEventListener("click", function() {
+        slideImg[imgCounter].classList.remove('visible');
+        imgCounter++;
+
+        if (imgCounter >= slideImg.length) {
+            imgCounter = 0;
+        }
+
+        slideImg[imgCounter].classList.add('visible');
+    });
+
+
+    leftArrow.addEventListener("click", function() {
+        slideImg[imgCounter].classList.remove('visible');
+        imgCounter--;
+
+        if (imgCounter < 0) {
+            imgCounter = slideImg.length - 1;
+        }
+        slideImg[imgCounter].classList.add('visible');
+
+
+    });
 
 });
