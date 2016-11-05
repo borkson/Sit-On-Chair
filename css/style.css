@@ -204,11 +204,13 @@ h2 {
 .image-gallery:first-child {
     background-image: url("../images/box1_img.jpg");
     position: relative;
+    transition: all .1s ease-in-out;
 }
 
 .image-gallery:nth-child(2) {
     background-image: url("../images/box2_img.jpg");
     position: relative;
+    transition: all .1s ease-in-out;
 }
 
 .image-gallery:hover {
@@ -243,6 +245,7 @@ h2 {
     height: 280px;
     position: relative;
     text-align: left;
+    transition: all .1s ease-in-out;
 }
 
 .text-gallery:hover {
@@ -262,6 +265,10 @@ h2 {
 .text-gallery-header {
     padding-top: 20px;
     width: 45%;
+}
+
+.hide {
+    display: none;
 }
 
 
@@ -373,6 +380,7 @@ h2 {
     position: absolute;
     text-align: center;
     margin-top: 160px;
+    padding: 0;
 }
 
 .list li {
