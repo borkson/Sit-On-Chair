@@ -166,13 +166,13 @@ nav li:hover {
 }
 
 .left-arrow:active {
-    right: 4px;
+    right: 5px;
 }
 
 .left-arrow {
     position: relative;
     right: 0px;
-    transition: all ease 0.3s;
+    transition: all ease 0.2s;
 }
 
 .right-arrow {
@@ -180,13 +180,13 @@ nav li:hover {
 }
 
 .right-arrow:active {
-    left: 4px;
+    left: 5px;
 }
 
 .right-arrow {
     position: relative;
     left: 0px;
-    transition: all ease 0.3s;
+    transition: all ease 0.2s;
 }
 
 #slider .fixed-width article div {
