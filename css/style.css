@@ -139,6 +139,9 @@ nav li:hover {
     display: none !important;
 }
 
+
+/*add class visible for slider */
+
 .visible {
     display: inline-block !important;
 }
