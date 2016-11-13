@@ -13,9 +13,13 @@ Sit On Chair jest moją pierwszą bardziej zaawansowaną stroną, którą wykony
 
 ## Why this site?!
 
-Sit On Chair is my first page, which I have made during programming course in **Coders Lab - Code School**. Workshop is showing my **HTML**, **CSS** & **JavaScript** skills.
+Sit On Chair is my first page, which I have made during programming course in **Coders Lab - Code School**. Workshop is showing my **HTML**, **CSS** & **JavaScript** skills. I made it based on .psd project (You can see it below).
 
 ## Demo: [Sit On Chair] (https://borkson.github.io/Sit-On-Chair/) :boom:
+
+![Sit on Chair](https://dl.dropboxusercontent.com/u/1306984/warsztat1.jpg)
+
+
 
 
 
