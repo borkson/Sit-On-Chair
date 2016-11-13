@@ -2,7 +2,7 @@
 
 ## Skąd w ogóle pomysł na taką stronę?!
 
-Sit On Chair jest moją pierwszą bardziej zaawansowaną stroną, którą wykonywałem podczas kursu w **Coders Lab - Szkoła Programowania**. Celem strony jest ukazanie moich umiejętności posługiwania się technologiamii, których uczyłem się w trakcie kursu i uczę nadal we własnym zakresie. Na obecnym etapie projektu jest to **HTML**, **CSS** i **JavaScript**. Strona tworzona była w oparciu o dostarczony plik .psd.   Nie jest responsywna na tym etapie. Na moment rozpoczęcia projektu nie miałem dostatecznej wiedzy na temat RWD. W trakcie rozwoju postaram się uczynić ją w pełni responsywną.
+Sit On Chair jest moją pierwszą bardziej zaawansowaną stroną, którą wykonywałem podczas kursu w **Coders Lab - Szkoła Programowania**. Celem strony jest ukazanie moich umiejętności posługiwania się technologiamii, których uczyłem się w trakcie kursu i uczę nadal we własnym zakresie. Na obecnym etapie projektu jest to **HTML**, **CSS** i **JavaScript**. Strona tworzona była w oparciu o dostarczony plik .psd (zdjęcie poniżej).   Nie jest responsywna na tym etapie. Na moment rozpoczęcia projektu nie miałem dostatecznej wiedzy na temat RWD.
 
 ## Warte uwagi?!
 
